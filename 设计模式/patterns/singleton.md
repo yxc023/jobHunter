@@ -1,6 +1,7 @@
 # 单例模式
 ## 实现与说明
 ### java
+#### 实现例子
 
     public class A {
         private static A a;
@@ -23,3 +24,6 @@
             }
         }
     }
+
+#### 用例
+1. Calendar类
