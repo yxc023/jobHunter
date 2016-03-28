@@ -12,6 +12,7 @@
             if (a != null) {
               return a;
             }
+            // 创建时代码做同步处理
             synchronized(A.class) {
                 if (a != null) {
                     return a;
